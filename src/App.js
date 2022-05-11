@@ -1,10 +1,10 @@
 import { useState } from "react";
 import BarChart from "./components/BarChart";
 import "./App.css";
-import { UserData } from "./Data";
+// import { UserData } from "./Data";
 
 function App() {
-    const [userData, setUserData] = useState({
+    const [userData] = useState({
         // labels: UserData.map((data) => data.year),
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [
